@@ -1,0 +1,263 @@
+body {
+    font-family: 'Oswald', sans-serif; 
+}
+
+p,
+.form-group label,
+.brand-sub {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+h2, p {
+    padding-left: 5px;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+.section .row {
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+    width: 100%;
+    margin: 0px;
+}
+
+.btn-default {
+    color: white;
+    background-color: black;
+    border-color: black;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+
+.btn-default:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+/*.section .portada {
+    margin-bottom: 25px;
+}
+*/
+
+/*div.portada {
+    padding: 0px 55px;
+}*/
+
+.form-control {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 0px;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    height: 70px;
+    margin: 0px;
+    padding: 0px 20px 5px 20px;
+}
+
+.navbar-default .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 16px 16px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form .collapse {
+    border-color: white;
+    background: white;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 3px solid black;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    padding: 0px;
+    margin: 0px 5px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    padding-left: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+/*.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}*/
+
+.brand-name {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.brand-sub {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.section {
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.img-center {
+    margin: auto;
+}
+
+.section .info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background: black;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer i.fa {
+    color: white;
+    font-size: 2.7rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row .img-grid {
+    margin: 0px;
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    p {
+        width: 80%;
+    }
+
+    div.portada {
+        padding: 0px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar-default.nav-line {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .navbar-default {
+        padding: 5px 35px 5px 35px;
+    }
+
+    .brand-name {
+        font-size: 3rem;
+    }
+
+    .brand-sub {
+        font-size: 1.5rem;
+    }
+    footer {
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .section .info {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: -10px 0px 0px 0px;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        top: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 0px -20px;
+    }
+
+    .navbar-default .navbar-collapse.collapse.in,
+    .navbar-default .navbar-collapse.collapsing {
+            /* padding: 0px; */
+        position: absolute;
+        /*top: 90px;*/
+        left: 0px;
+        right: 0px;
+    }
+
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > li > a,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > li > a {
+        padding: 20px;
+    }
+
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > .active > a,
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > li > a:hover,
+    .navbar-default .navbar-collapse.collapse.in .navbar-nav > li > a:focus,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > .active > a,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > li > a:hover,
+    .navbar-default .navbar-collapse.collapsing .navbar-nav > li > a:focus {
+        border-bottom: none;
+        background-color: black;
+        color: white;
+    }
+}
